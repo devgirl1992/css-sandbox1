@@ -1,0 +1,17 @@
+body {
+  background-color: rgb(241, 187, 169);
+  font-family: 'Indie Flower', cursive;
+  font-size: 18px;
+  line-height: 1.6rem;
+}
+
+#welcome p spam {
+  color: red;
+  font-weight: bolder;
+}
+
+#about p span {
+  color: orangered;
+  font-weight: bolder;
+  font-style: italic;
+}

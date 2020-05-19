@@ -1,0 +1,23 @@
+body {
+  background-color: rgb(250, 195, 175);
+}
+
+a {
+  color: rgb(8, 156, 3);
+  text-decoration: none;
+}
+
+.btn {
+  background-color: #4c6ca0;
+  color: white;
+  border: none;
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+ .btn:hover {
+  color: rgb(222, 243, 29);
+  background-color: #006190;
+
+ }

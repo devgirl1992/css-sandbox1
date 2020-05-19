@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Shadows Into Light', cursive;  
+  background-color: #f1a5f8;
+  color: rgb(255, 255, 255);
+  line-height: 1.8rem;
+}
+
+.form-group {
+  border: 1px dotted blue;
+}
+
+.container {
+  margin: 50px auto;
+  max-width: 500px;
+  padding: 50px;
+  border: 3px solid orange;
+  background-color: rgb(87, 103, 251);
+}
+
+.navbar {
+background-color: whitesmoke;
+}
+
+.navbar ul {
+  padding: 10px;
+}
+
+.navbar ul li {
+list-style: none;
+display: inline-block;
+background-color: violet;
+margin: 10px;
+
+}
+
+.navbar ul li a {
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+}
+
+
+.form-wrap {
+  background-color: rgb(162, 233, 240);
+  border: 2px solid #ceb3fa;
+  padding: 30px;
+}
+
+
+.form-wrap h2, 
+.form-wrap p {
+  text-align: center;
+  line-height: 2.3rem;
+  color: rgb(87, 103, 251);
+}
+
+.form-group {
+  margin-bottom: 25px;
+}
+.form-group label {
+  display: block;
+}
+.form-group input {
+  padding: 5px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.form-wrap button {
+  width: 100%;
+  display: block;
+  padding: 5px;
+  border-radius: 5px;
+  color: rgb(87, 103, 251);
+  margin-bottom: 25px;
+  font-weight: bold;
+  cursor:pointer;
+} 
+
+.form-wrap button:hover {
+  background-color: #ceb3fa;
+}
+
+footer {
+  text-align: center;
+  line-height: 2.3rem;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(33, 35, 192);
+  font-weight: bold;
+}
+
+ a:hover {
+  color: blueviolet;
+}
+
+
+
+

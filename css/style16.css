@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html {
+  line-height: 1.7rem;
+}
+
+.item {
+  background-color: rgb(231, 228, 228);
+  border: 1px solid rgb(207, 202, 202);
+  text-align: center;
+  margin: 0.75rem;
+  padding: 1rem;
+  flex: 1;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;  /* is as defoult*/
+  flex-wrap: wrap;
+  /* flex-wrap: wrap => get ridd of scroll when we have  a lot child and make more rows*/
+  /* flex-flow => we can have both of fels-direction and flex-wrap  */
+  /* flex-flow: row wrap; */
+  /* flex-direction: column; */
+  }
+  
+.item:first-child {
+  flex: 1;
+}

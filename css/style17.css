@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html {
+  line-height: 1.7rem;
+}
+
+#container {
+  background-color: rgb(87, 131, 6);
+  display: flex;
+  flex-wrap: wrap;
+ 
+  /* align items horizonta */
+justify-content: space-around;
+  /* 
+  OPTIONS:
+  stretch
+  flex-start
+  flex-end
+  center
+  space-between
+  space-around
+  space-evenly
+  */
+
+  height: 600px;
+  /* align items vertical (must be a height)*/
+  align-items: baseline;
+  /* 
+  OPTIBNS:
+baseline
+center
+streach
+flex-start
+flex-end
+  */
+
+  /* for align-content we need more than One row 
+  Align items vertical where is extra space*/
+  /* align-content: center; */
+  
+  /* OPTIBNS:
+baseline
+center
+streach
+flex-start
+flex-end */
+  
+
+}
+
+.item {
+  background-color: rgb(231, 228, 228);
+  border: 1px solid rgb(207, 202, 202);
+  text-align: center;
+  margin: 0.5rem;
+  padding: 1rem;
+   /* width: 300px === flex-basis: 300px */
+   flex-basis: 350px;
+}
+
+/* .item-1 {
+order: 3;
+} */
+
+.item-2 {
+  /* Align single Item Vertical */
+  align-self: center;
+  /* order: 2; */
+}
+.item-3 {
+  align-self: flex-end;
+}
+
+
+.item-4 {
+align-self: stretch;}
+

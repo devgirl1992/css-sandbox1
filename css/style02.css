@@ -1,0 +1,40 @@
+ /*element selector*/
+body {
+  background-color: rgb(245, 245, 163);
+}
+
+h2 {
+  color: blue;
+}
+
+/*id selector*/
+#primary-color {
+  color: rgb(248, 9, 196);
+}
+
+#welcome {
+  background-color: lightgreen;
+  border: 2px solid darkgreen;
+}
+
+/*class selector*/
+ .para {
+   font-family: monospace;
+   font-weight: bold;
+   font-style: italic;
+   font-size: x-large;
+ }
+
+ /* multiple selector*/
+ #welcome, #about {
+   border: 1px solid red;
+ }
+
+ /*nested selector*/
+ #welcome p {
+   font-size: 20px;
+   font-style: normal;
+ }
+
+
+ 

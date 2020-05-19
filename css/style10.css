@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(252, 240, 75);
+}
+ul {
+  background-color: cyan;
+  border-radius: 10px;
+}
+ul li {
+  display: inline-block;
+  padding: 15px;
+  background-color: rgb(238, 192, 137);
+  border: 1px solid blue;
+  border-radius: 15px 25px;
+  margin: 5px;
+}
+
+ul li a {
+  text-decoration: none;
+  font-weight: bolder;
+  color: blue;
+}
+
+ul li a:hover {
+  color: rgb(253, 249, 249);
+}
+
+ul li:hover {
+  background-color: rgb(245, 16, 245);
+}
+
+/*we can't do margin:auto for inline element,it's need be block element*/
+.tooti {
+  max-width: 250px;
+  height: 200px;
+  display: block;
+  margin: auto;
+  margin-bottom: 25px;
+}
+
+/*can't use width with  display:inline,but the solution is inline-block */
+.box {
+  display: inline-block;
+  background-color: rgb(2, 76, 160);
+  max-width: 33%;
+  padding: 20px;
+}
+
+.container {
+  background-color: darkgray;
+  width: 90%;
+  margin: auto;
+}

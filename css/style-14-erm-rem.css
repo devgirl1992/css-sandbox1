@@ -1,0 +1,17 @@
+/* set the root font size for example to 10, then the other change is just base on root font size */
+/* the promlem with "em" i s that get confusing in nesdet because is changed the parents, but if we use "rem" root is always same */
+html {
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+
+#box-1 h3{
+  font-size: 3rem;
+}
+
+#box-1 p {
+
+  font-size: 1.5rem;
+}

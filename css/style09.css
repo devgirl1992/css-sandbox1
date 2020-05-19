@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(112, 108, 105, 0.952);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*
+li ==> float: left >> navbar bgc pak mishe,
+braye fix krdn in moshkl 
+.navbar ==> overflow: auto
+*/
+/*navbar*/
+.navbar {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: #007c9b;
+  border-radius: 10px;
+  overflow: auto;
+}
+
+.navbar li {
+  float:left;
+  padding:10px;
+  margin: 15px;
+  background-color: rgb(120, 236, 198);
+  border: 2px solid rgb(16, 2, 61);
+
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: rgb(111, 61, 219);
+}
+
+.navbar li:hover {
+  background-color: violet;
+}
+
+
+.navbar li a:hover {
+  color: #ffed4d;
+  font-weight: bold;
+}
+
+
+/*side menu*/
+.side-menu {
+  background-color: darkorange;
+  list-style: none;
+  border: 1px solid white;
+  border-radius: 10px;
+  max-width: 250px;
+  padding: 20px;
+  margin:  10px ;
+}
+.side-menu li {
+font-size: 18px;
+line-height: 2.5em;
+border-bottom: 1px dotted rgb(20, 4, 4);
+}
+
+
+/*
+.side-menu  li:last-child {
+  border: none;
+}
+*/
+.side-menu  li a {
+  text-decoration: none;
+  color: black;
+
+}
+.side-menu li a:hover {
+  color: aqua;
+}
+

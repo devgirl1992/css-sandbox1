@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+background-color: #a6d8f0;
+color: black;
+padding-top: 100px;
+}
+
+h1 {
+  display: none;
+}
+
+
+
+
+
+
+/* Normal 769-1200  */
+@media(min-width: 769px) and (max-width: 1200px) {
+  body {
+    background-color: rgb(238, 176, 247);
+  }
+  #normal h1 {
+    display:block;
+  }
+}
+/* widescreen */
+@media(min-width: 1201px) {
+  body {
+    background-color: rgb(255, 251, 0);
+  }
+  #widescreen ha {
+    display:block;
+  }
+}
+
+/* landscape */
+@media(max-height: 500px) {
+     body {
+       background-color: orange;
+     }
+     #landscape h1 {
+       display: block;
+     }
+}

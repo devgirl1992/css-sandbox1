@@ -1,0 +1,47 @@
+body {
+  background-color: rgba(245, 177, 154, 0.397);
+  height: 2000px;
+}
+.container {
+  background-color: rgb(128, 0, 128);
+  width: 500px;
+  height: 400px;
+  position: relative;
+  left: 130px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+}
+#box1 {
+  position: relative;
+  top: 50px;
+  left: 80px;
+  background-color: rgb(255, 230, 1);
+}
+#box2 {
+  position: absolute;
+  background-color: deeppink;
+  bottom: 45px;
+  left: 25px;
+}
+#box3 {
+  position: absolute;
+  background-color: forestgreen;
+  right: 80px;
+  bottom: 25px;
+}
+#box4 {
+  z-index: -1;
+  position: fixed;
+  left: 550px;
+  top: 10px;
+  background-color: indigo;
+}
+#box5 {
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: powderblue;
+}

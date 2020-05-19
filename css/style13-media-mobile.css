@@ -1,0 +1,19 @@
+/* Smart phones max-width 500*/
+@media(max-width: 500px) {
+  body {
+    background-color: rgb(0, 255, 255);
+  }
+
+  #smartphone h1 {
+    display: block;
+  }
+}
+/* tablet max-width 501-768 */
+@media(min-width: 501px) and (max-width: 768px) {
+  body {
+    background-color: rgb(58, 236, 177); 
+  }
+  #tablet h1 {
+    display: block;
+  }
+}

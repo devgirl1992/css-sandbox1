@@ -1,0 +1,26 @@
+body {
+  background-color: rgb(216, 251, 248);
+}
+
+/*css reset*/
+/*
+* {
+  margin: 0;
+  padding: 0;
+}*/
+
+.xox {
+  box-sizing: border-box;
+  background-color: cornflowerblue;
+  border: 2px solid blue;
+  width: 500px;
+  padding: 40px;
+ 
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.xox p {
+  padding:15px 0 ;   
+  margin: 0;
+}
